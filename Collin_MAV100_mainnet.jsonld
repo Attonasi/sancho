@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Collin_MAV100",
+    "motivations": "I am a Software Engineer, Father, Entrepreneur, US Army Ranger. \n\nI have worked for the man, started several businesses and been the man, deployed once to Iraq and 3 times to Afghanistan with hundreds of combat missions, and I have way too many college credits. \n\nI want to be a Cardano Delegated Representative because I am a student of history and I believe we can solve some historically unsolved problems using this blockchain. \n\nThe first problem is the Pareto Distribution which is historically undefeated. In any system a small number of people will always end up with most of the wealth. The key to solving this is Decentralization. \n\nThe second problem is Historically Governance selects for the most motivated and least moral in a population. People who use deceit and manipulation to obtain power can be defeated by Transparency. People who cheat can be defeated by immutability. Those who abuse systems and are corrupt can be defeated with trustlessness.",
+    "objectives": "As a DRep I will focus my efforts on organizing our communities using the Cardano blockchain as the infrastructure that we use to organize our business entities and the funding that we use to educate our community members.\n\nI believe Cardano must follow the original principles that drove the creation of Blockchain technology: Protecting people from fiat abuse and Decentralizing key structures in our society. The practical limit on the success of a system is the amount of information available to the people who make the decisions. \n\nThe Cardano Blockchain has the power to bring Transparency, Immutability, Trustlessness and Decentralization to the structures we organize our communities with. Using this blockchain we can get more information to more decision makers and our communities will make higher quality and more decentralized decisions. \n\nWe cannot judge our success by how much fiat we attract. We must judge our success by how many people and how many communities we free.",
+    "paymentAddress": "addr1qx9et4sfzcp9q6qjqlezzf0d6hu32fxue4qpn4ajhxnk9gj4tkcewugswla5na6g3jm6le045tnmt4ckzdwktn32dajssxm26l",
+    "qualifications": "B.S. Business\nMasters Computer Science\nSergeant 2 Ranger Battalion 75th Ranger Regiment\nSerial Entrepreneur\nSoftware Engineer\nFounder of MAV100",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "@attonasi on twitter",
+        "uri": "mav100.com"
+      },
+      {
+        "@type": "Identity",
+        "label": "MAV100 delegation page.",
+        "uri": "https://mav100.com/delegation/"
+      }
+    ]
+  }
+}
